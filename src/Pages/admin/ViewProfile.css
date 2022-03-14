@@ -1,0 +1,197 @@
+.viewprofile {
+    font-family: "Georgia";
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 4%;
+  }
+  
+  .vp-left-box {
+    /* float: left; ------------------------- */
+    box-shadow: 10px 10px 5px grey;
+    background: linear-gradient(to right, rgb(131, 129, 129), rgb(25, 26, 26));
+
+
+
+    height: 961px;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 15px 15px 15px 15px;
+  }
+  
+  /**Left side content CSS**/
+  .vp-top-left {
+    position: relative;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    box-sizing: border-box;
+    height: 25%;
+    margin: 0px;
+  }
+  
+  .vp-name {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+    box-sizing: border-box;
+  }
+  
+  #vp-img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .vp-objective-img {
+    float: left;
+    border: solid;
+    border-width: 3px;
+    box-sizing: border-box;
+    width: 30px;
+    height: auto;
+  }
+  
+  .vp-phone {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .vp-phone-text {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+  }
+  
+  .vp-email {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .vp-email-text {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+  }
+  /**work experience box**/
+  .vp-work-experience {
+    /* float: left; ------------------------*/
+    box-shadow: 10px 10px 5px grey;
+    background-color: rgb(116, 107, 107);
+    height: 300px;
+    width: 850px;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+  }
+  
+  .vp-job-title {
+    font-weight: bold;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  .vp-job-date{
+    color: #b30000;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  
+  .vp-job-description{
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  .vp-work-img {
+    float: left;
+    background-color: #e24e4e;
+    height: auto;
+    width: 50px;
+    margin: 25px 30px 100% 30px;
+    box-sizing: border-box;
+  }
+  
+  .vp-education-box {
+    float: left;
+    border: solid;
+    border-width: 0px 0px 3px 0px;
+    box-sizing: border-box;
+    margin: 0px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: auto;
+  }
+  
+  .vp-education-box:hover {
+    background-color: gray;
+  }
+  
+  .vp-education-title {
+    font-weight: bold;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  .vp-education-date {
+    color: #b30000;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  .vp-education-description {
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  /**Education box**/
+  .vp-education {
+    /* float: left;------------------------- */
+    box-shadow: 10px 10px 5px grey;
+    background-color: rgb(116, 107, 107);
+    box-sizing: border-box;
+    height: 300px;
+    width: 850px;
+    margin: 15px 15px 15px 15px;
+  }
+  
+  /**Skills box**/
+  .vp-skills {
+    /* float: left; */
+    box-shadow: 10px 10px 5px grey;
+    background-color: rgb(116, 107, 107);
+    height: 300px;
+    width: 850px;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+  
+  }
+  
+  .vp-skill-ul {
+    list-style: none;
+    margin: 10px 20px 20px 45px;
+  }
+
+
+  .vp-skill-li {
+    width: 410px;
+    border: solid;
+    border-width: 1px;
+    background-color: #b30000;
+    margin: 10px 110px 10px 0px;
+  }
+
+  .vpInline{
+      display: inline-flex;
+  }

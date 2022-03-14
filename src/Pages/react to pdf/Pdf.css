@@ -1,0 +1,21 @@
+.pdfBody{
+    margin-top: 4rem;
+}
+
+.pdfBody h1{
+    text-align: center;
+}
+
+.pdfButtons{
+    display: flex;
+    justify-content: center;  
+}
+
+.pdfButtons button{
+    margin-right: 15px;
+    background-color: teal;
+}
+
+.pdfButtons button:hover{
+    background-color: rgb(35, 182, 182);    
+}

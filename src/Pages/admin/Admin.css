@@ -1,0 +1,39 @@
+.adminProps{
+margin-left: 20%;
+}
+
+.adminButton{
+    margin-left: 28%;
+    
+}
+
+.adminButton button{
+    margin-right: 2%;
+    background-color: rgb(53, 94, 29);
+    border-radius: 10px;
+    border: none;
+}
+
+.adminButton button:hover{
+    background-color: rgb(97, 172, 53);
+}
+
+.addUser{
+    height: 50px;
+    
+}
+.adminButton a{
+    border: none !important;
+}
+
+/* .addUserLink{
+    border: 5px solid red;
+} */
+
+.removeUser{
+    background-color: rgb(112, 17, 5) !important;
+}
+
+.removeUser:hover{
+    background-color: rgb(247, 53, 27) !important;
+}
